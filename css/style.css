@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: 'Space Grotesk', sans-serif;
 }
 
 header{
-    background-color: rgba(168, 250, 45, 0.884);
+    background-color: rgba(255, 241, 39, 0.836);
 }
 
 header h1{
-    color: green;
+    color: rgb(223, 99, 42);
     font-size: 55px;
     text-align: center;
 }
@@ -24,90 +27,140 @@ header nav ul li a{
     font-size: 20px;
 }
 
+header nav div{
+    padding-left: 15px;
+}
+
+header nav div .navbar-brand{
+    padding-left: 15px;
+}
+
+header nav div .d-flex{
+    padding-right: 15px;
+}
+
 header nav ul li{
-    display: inline-block;
     padding: 10px;
     justify-content: space-between;
 }
 
-.hero h2{
-    background-image: url("../img/bolsoygafas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.grid-galeria{
     width: 100%;
-    height: 400px;
-    padding-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 350px;
+    gap: 35px;
+    padding: 35px;
 }
 
-main section h2{
-    color: rgb(117, 184, 17);
-    font-weight: 100;
-    text-align: right;
-    font-size: 30px;
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.flex-conteiner{
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap: wrap;
+.grid-galeria div h2{
+    position: absolute;
 }
 
 h3{
-    color: yellowgreen;
-    font-weight: 500;
-    font-size: 30px;
+    color: rgb(221, 109, 3);
+    text-align: center;
+    padding-top: 35px;
 }
 
-.rebaja{
-    color: rgb(221, 86, 8);
-    font-weight: 500;
-    font-size: 40px;
+.grid-galeria2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 350px;
+    gap: 35px;
+}
+
+.grid-galeria2 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-galeria2 div p{
     text-align: center;
 }
 
-.descuento{
-    color: rgb(221, 86, 8);
+.grid-galeria2 div{
+    padding-bottom: 75px;
+}
+
+.grid-imagenes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-auto-rows: 450px;
+    gap: 35px;
+}
+
+.grid-imagenes div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-imagenes div p{
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
+    background-color: white;
+    background-position: 100%;
+}
+
+.grid-imagenes div{
+    padding-bottom: 75x;
+}
+
+.grid-imagenes div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 15px;
+}
+
+.rebaja{
+    color: rgb(223, 99, 42);
     font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.descuento{
+    color: rgb(223, 99, 42);
     font-size: 20px;
     text-align: center;
 }
 
-.fotos img{
-    width: 400px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
-}
-
-.fotos div{
-    height: 600px; 
-    width: 400px;
-    margin: 15px;
-    display: inline-block;
-}
-
-.fotos div p{
-    text-align: center;
-}
-
-.fotos div a{
-    text-align: center;
+.grid-imagenes div a{
     text-decoration: none;
     background-color: black;
     color: antiquewhite;
     padding: 2px;
+    justify-content: center;
+}
+
+.pics{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .shopp{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 40px;
     text-align: center;
+    padding-top: 25px;
 }
 
 .carrito p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 15px;
     text-align: center;
@@ -140,17 +193,23 @@ h3{
 }
 
 .nuevo p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 40px;
     text-align: center;
+    padding-top: 25px;
 }
 
 .temporada p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 20px;
     text-align: center;
+}
+
+.imagen{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .imagen img{
@@ -181,45 +240,57 @@ h3{
 }
 
 .referencia{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 40px;
     text-align: center;
 }
 
 .flor{
-    color: green;
+    color: rgb(223, 99, 42);;
     font-size: 22px;
-    text-align: left;  
+    text-align: left;
+    margin-inline-start: 15px;
+    padding-top: 45px;
 }
 
 .envio a{
     color: black;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     display: block;  
+    margin-inline-start: 15px;
 }
 
 .horario{
     color: black; 
     text-align: center; 
-    font-size: 12px;  
-}   
+    font-size: 12px;
+    text-decoration: none;
+    padding-bottom: 20px;  
+} 
 
-footer div ul li{
+footer{
+    background-color: white;
+    
+}
+
+footer div ul{
     color: black; 
-    text-align: center;   
+    justify-content: center;
+    align-items: center;
+
 }   
 
 .noso p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 40px;
     text-align: center;
 }
 
 .texto p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 20px;
     text-align: left;
@@ -233,7 +304,7 @@ footer div ul li{
 }
 
 .titulo p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 20px;
     text-align: left;
@@ -247,7 +318,7 @@ footer div ul li{
 }
 
 .trabaja p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 20px;
     text-align: left;
@@ -261,7 +332,7 @@ footer div ul li{
 }
 
 .envios p{
-    color: rgb(221, 86, 8);
+    color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 20px;
     text-align: left;
@@ -279,3 +350,4 @@ footer div ul li{
     margin: 20px;
     width: 200px;
 }
+
