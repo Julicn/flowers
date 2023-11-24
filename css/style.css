@@ -15,9 +15,39 @@ header{
 }
 
 header h1{
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    padding-bottom: 10px;
+    animation-name: slidein;
+    animation-duration: 10s;
+    animation-timing-function: ease-out;
+    animation-direction: initial;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+
+}
+
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    
+    to{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+header h2{
     color: rgb(223, 99, 42);
     font-size: 55px;
     text-align: center;
+    padding-top: 15px;
 }
 
 header nav ul li a{
@@ -45,31 +75,45 @@ header nav ul li{
     justify-content: space-between;
 }
 
-.grid-galeria{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 350px;
-    gap: 35px;
-    padding: 35px;
+.col{
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 35px;
+    transition: 1s;
 }
 
-.grid-galeria div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.grid-galeria div h2{
-    position: absolute;
+.col div:hover{
+    transform: scale(1.2);
 }
 
 h3{
     color: rgb(221, 109, 3);
     text-align: center;
-    padding-top: 45px;
+    padding-top: 35px;
     font-size: 40px;
+    font-weight: bold;
     padding-bottom: 25px;
+    background-color: rgba(255, 241, 39, 0.836);
+    animation-name: slidein;
+    animation-duration: 10s;
+    animation-timing-function: ease-out;
+    animation-direction: initial;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+
+}
+
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    
+    to{
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 .grid-galeria2{
@@ -88,7 +132,8 @@ h3{
 .grid-galeria2 div img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    padding-top: 35px;
 }
 
 .grid-galeria2 div p{
@@ -211,23 +256,35 @@ video{
 
 h5{
     text-align: center;
-    color: gray;
+    color: black;
     font-size: 40px;
+}
+
+h6{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 15px;
     padding-bottom: 15px;
+    background-color: grey;    
 }
 
 .rebaja{
-    color: rgb(223, 99, 42);
-    font-weight: 500;
-    font-size: 40px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: rgb(223, 99, 42);
 }
 
 .descuento{
     color: rgb(223, 99, 42);
     font-size: 20px;
+    font-weight: bold;
     text-align: center;
+    padding: 15px;
 }
 
 .grid-imagenes div a{
@@ -249,18 +306,21 @@ h5{
 }
 
 .shopp{
-    color: rgb(223, 99, 42);
-    font-weight: 500;
-    font-size: 40px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: rgb(223, 99, 42);
 }
 
-.carrito p{
+.carrito{
     color: rgb(223, 99, 42);
-    font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
+    padding: 15px;
 }
 
 .pics img{
@@ -289,19 +349,22 @@ h5{
     padding: 2px;
 }
 
-.nuevo p{
-    color: rgb(223, 99, 42);
-    font-weight: 500;
-    font-size: 40px;
+.nuevo{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: rgb(223, 99, 42);
 }
 
-.temporada p{
+.temporada{
     color: rgb(223, 99, 42);
-    font-weight: 500;
     font-size: 20px;
+    font-weight: bold;
     text-align: center;
+    padding: 15px;
 }
 
 .imagen{
@@ -336,16 +399,10 @@ h5{
     padding: 2px;
 }
 
-.referencia{
-    color: rgb(223, 99, 42);
-    font-weight: 500;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 25px;
-}
-
 .mapa{
-    display: flex;    
+    display: flex;  
+    padding-top: 15px;  
+    padding-left: 35px;
 }
 
 .contactos-1{
@@ -390,40 +447,44 @@ footer div ul{
 
 }   
 
-.noso p{
+.noso-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.texto{
     color: rgb(223, 99, 42);
     font-weight: 500;
-    font-size: 40px;
-    text-align: center;
+    font-size: 35px;
+    text-align: left;
     padding-top: 25px;
+    padding-left: 25px;
 }
 
-.texto p{
-    color: rgb(223, 99, 42);
-    font-weight: 500;
-    font-size: 20px;
-    text-align: left;
-}
-
-.historia p{
+.historia{
     color:black;
     font-weight: 300;
     font-size: 15px;
     text-align: left;
+    padding-left: 25px;
 }
 
-.titulo p{
+.titulo{
     color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 20px;
     text-align: left;
+    padding-left: 25px;
 }
 
-.sustentabilidad p{
+.sustentabilidad{
     color:black;
     font-weight: 300;
     font-size: 15px;
     text-align: left;
+    padding-left: 25px;
 }
 
 .trabaja p{
