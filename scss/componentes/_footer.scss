@@ -1,0 +1,36 @@
+footer{
+    background-color: white;
+
+    div ul{
+        color: black; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .flor{
+        color: rgb(223, 99, 42);;
+        font-size: 22px;
+        text-align: left;
+        margin-inline-start: 15px;
+        padding-top: 55px;
+    }
+    
+    .envio a{
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        display: block;  
+        margin-inline-start: 15px;
+    }
+    
+    .horario{
+        color: black; 
+        text-align: center; 
+        font-size: 12px;
+        text-decoration: none;
+        padding-bottom: 20px;  
+    }     
+}
+
+   

@@ -1,0 +1,48 @@
+header{
+    background-color: rgba(255, 241, 39, 0.836);
+
+    h1{
+        color: white;
+        font-size: 15px;
+        background-color: black;
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-bottom: 15px;
+        padding-bottom: 10px;
+        animation-name: slidein;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-direction: initial;
+        animation-iteration-count: infinite;
+        animation-delay: 10s;
+    
+    }
+    
+    @keyframes slidein {
+        from{
+            margin-left: 100%;
+            width: 300%;
+        }
+        
+        to{
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
+    h2{
+        color: rgb(223, 99, 42);
+        font-size: 55px;
+        text-align: center;
+        padding-top: 15px ;
+    }
+
+    nav div .navbar-brand{
+        padding-left: 15px;
+    }
+
+    .d-flex{
+        padding-right: 15px;
+    }
+        
+}

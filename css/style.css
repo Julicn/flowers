@@ -47,32 +47,15 @@ header h2{
     color: rgb(223, 99, 42);
     font-size: 55px;
     text-align: center;
-    padding-top: 15px;
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color: rgb(221, 109, 3);
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-}
-
-header nav div{
-    padding-left: 15px;
+    padding-top: 15px ;
 }
 
 header nav div .navbar-brand{
     padding-left: 15px;
 }
 
-header nav div .d-flex{
+.d-flex{
     padding-right: 15px;
-}
-
-header nav ul li{
-    padding: 10px;
-    justify-content: space-between;
 }
 
 .col{
@@ -144,39 +127,6 @@ h3{
     padding-bottom: 75px;
 }
 
-.grid-imagenes{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 3fr);
-    grid-auto-rows: 450px;
-    gap: 35px;
-}
-
-.grid-imagenes div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.grid-imagenes div p{
-    text-align: center;
-    padding-bottom: 15px;
-    position: relative;
-    background-color: white;
-    background-position: 100%;
-}
-
-.grid-imagenes div{
-    padding-bottom: 75x;
-}
-
-.grid-imagenes div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding-bottom: 15px;
-}
-
 video{
     width: 100%;
     height: 350px;
@@ -194,6 +144,10 @@ video{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 35px;
+    color:black;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
 }
 
 .text h4{
@@ -254,12 +208,6 @@ video{
     margin-left: 75px;
 }
 
-h5{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-}
-
 h6{
     text-align: center;
     color: white;
@@ -287,6 +235,33 @@ h6{
     padding: 15px;
 }
 
+.grid-imagenes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-auto-rows: 450px;
+    gap: 75px;
+}
+
+.grid-imagenes div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 15px;
+}
+
+.grid-imagenes div p{
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+    background-color: white;
+    background-position: 100%;
+}
+
+.grid-imagenes div{
+    padding-bottom: 75x;
+}
+
 .grid-imagenes div a{
     text-decoration: none;
     background-color: black;
@@ -298,105 +273,6 @@ h6{
 
 .grid-imagenes div:hover{
     transform: scale(1.2);
-}
-
-.pics{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.shopp{
-    color: white;
-    font-size: 45px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    background-color: rgb(223, 99, 42);
-}
-
-.carrito{
-    color: rgb(223, 99, 42);
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px;
-}
-
-.pics img{
-    width: 400px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
-}
-
-.pics div{
-    width: 400px;
-    height: 600px;
-    margin: 15px;
-    display: inline-block;
-}
-
-.pics div p{
-    text-align: center;
-}
-
-.pics div a{
-    text-align: center;
-    text-decoration: none;
-    background-color: black;
-    color: antiquewhite;
-    padding: 2px;
-}
-
-.nuevo{
-    color: white;
-    font-size: 45px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    background-color: rgb(223, 99, 42);
-}
-
-.temporada{
-    color: rgb(223, 99, 42);
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px;
-}
-
-.imagen{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.imagen img{
-    width: 400px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
-    
-}
-
-.imagen div{
-    width: 400px;
-    height: 600px;
-    margin: 15px;
-    display: inline-block;
-}
-
-.imagen div p{
-    text-align: center;
-}
-
-.imagen div a{
-    text-align: center;
-    text-decoration: none;
-    background-color: black;
-    color: antiquewhite;
-    padding: 2px;
 }
 
 .mapa{
@@ -479,19 +355,13 @@ footer div ul{
     padding-left: 25px;
 }
 
-.sustentabilidad{
-    color:black;
-    font-weight: 300;
-    font-size: 15px;
-    text-align: left;
-    padding-left: 25px;
-}
-
 .trabaja p{
     color: rgb(223, 99, 42);
     font-weight: 500;
     font-size: 20px;
     text-align: left;
+    padding-left: 25px;
+    padding-top: 35px;
 }
 
 .work p{
@@ -499,6 +369,7 @@ footer div ul{
     font-weight: 300;
     font-size: 15px;
     text-align: left;
+    padding-left: 25px;
 }
 
 .envios p{
@@ -507,6 +378,7 @@ footer div ul{
     font-size: 20px;
     text-align: left;
     padding-top: 25px;
+    padding-left: 25px;
 }
 
 .metodo p{
@@ -514,12 +386,17 @@ footer div ul{
     font-weight: 300;
     font-size: 15px;
     text-align: left;
+    padding-left: 25px;
 }
 
 .formulario{
     padding: 30px;
     margin: 20px;
     width: 200px;
+}
+
+.form{
+    padding-left: 25px;    
 }
 
 @media screen and (max-width: 900px) {
@@ -789,7 +666,7 @@ footer div ul{
     
     }
 
-.horario{
+    .horario{
     padding-top: 15px;
 
     }
