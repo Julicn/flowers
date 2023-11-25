@@ -6,7 +6,7 @@
 }
 
 .texto{
-    color: rgb(223, 99, 42);
+    color: $color-secundario;
     font-weight: 500;
     font-size: 35px;
     text-align: left;
@@ -15,7 +15,7 @@
 }
 
 .historia{
-    color:black;
+    color:$color-terciario;
     font-weight: 300;
     font-size: 15px;
     text-align: left;
@@ -23,7 +23,7 @@
 }
 
 .titulo{
-    color: rgb(223, 99, 42);
+    color: $color-secundario;
     font-weight: 500;
     font-size: 20px;
     text-align: left;

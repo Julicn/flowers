@@ -1,5 +1,5 @@
 .envios p{
-    color: rgb(223, 99, 42);
+    color: $color-secundario;
     font-weight: 500;
     font-size: 20px;
     text-align: left;
@@ -8,7 +8,7 @@
 }
 
 .metodo p{
-    color:black;
+    color: $color-terciario;
     font-weight: 300;
     font-size: 15px;
     text-align: left;

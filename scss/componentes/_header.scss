@@ -1,10 +1,10 @@
 header{
-    background-color: rgba(255, 241, 39, 0.836);
+    background-color: $color-primario;
 
     h1{
         color: white;
         font-size: 15px;
-        background-color: black;
+        background-color: $color-terciario;
         padding-top: 10px;
         padding-left: 35px;
         padding-bottom: 15px;
@@ -31,18 +31,10 @@ header{
     }
 
     h2{
-        color: rgb(223, 99, 42);
+        color: $color-secundario;
         font-size: 55px;
         text-align: center;
         padding-top: 15px ;
-    }
-
-    nav div .navbar-brand{
-        padding-left: 15px;
-    }
-
-    .d-flex{
-        padding-right: 15px;
     }
         
 }

@@ -51,12 +51,6 @@ header h2 {
   text-align: center;
   padding-top: 15px;
 }
-header nav div .navbar-brand {
-  padding-left: 15px;
-}
-header .d-flex {
-  padding-right: 15px;
-}
 
 main .col {
   padding-top: 45px;
@@ -69,7 +63,7 @@ main .col div:hover {
   transform: scale(1.2);
 }
 main h3 {
-  color: rgb(221, 109, 3);
+  color: rgb(223, 99, 42);
   text-align: center;
   padding-top: 35px;
   font-size: 40px;
@@ -512,7 +506,7 @@ footer .horario {
     text-align: center;
   }
   h3 {
-    color: rgb(221, 109, 3);
+    color: rgb(223, 99, 42);
     text-align: center;
     padding-top: 45px;
     font-size: 35px;
@@ -626,7 +620,7 @@ footer .horario {
     text-align: center;
   }
   h3 {
-    color: rgb(221, 109, 3);
+    color: rgb(223, 99, 42);
     text-align: center;
     padding-top: 45px;
     font-size: 30px;
