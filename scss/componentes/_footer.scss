@@ -3,8 +3,7 @@ footer{
 
     div ul{
         color: $color-terciario; 
-        justify-content: center;
-        align-items: center;
+        @include flex-2(center, center )
     
     }
 
@@ -13,7 +12,7 @@ footer{
         font-size: 22px;
         text-align: left;
         margin-inline-start: 15px;
-        padding-top: 55px;
+        padding-top: 75px;
     }
     
     .envio a{
