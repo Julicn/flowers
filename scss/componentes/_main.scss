@@ -12,13 +12,13 @@ main{
     }
     
     h3{
-        color: $color-secundario;
+        color: $color-primario;
         text-align: center;
         padding-top: 35px;
         font-size: 40px;
         font-weight: bold;
         padding-bottom: 25px;
-        background-color: $color-primario;
+        background-color: $color-secundario;
         animation-name: slidein;
         animation-duration: 10s;
         animation-timing-function: ease-out;
@@ -149,7 +149,7 @@ main{
         font-size: 40px;
         padding-top: 15px;
         padding-bottom: 15px;
-        background-color: grey;
+        background-color: rgb(187, 183, 183);
         transition: background-color, width 3s;          
     }
 

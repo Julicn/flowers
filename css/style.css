@@ -71,13 +71,13 @@ header nav div .navbar-brand{
 }
 
 h3{
-    color: rgb(221, 109, 3);
+    color: rgba(255, 241, 39, 0.836);
     text-align: center;
     padding-top: 35px;
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 25px;
-    background-color: rgba(255, 241, 39, 0.836);
+    background-color: rgb(221, 109, 3);
     animation-name: slidein;
     animation-duration: 10s;
     animation-timing-function: ease-out;
@@ -215,7 +215,7 @@ h6{
     font-size: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: grey;    
+    background-color: rgb(187, 183, 183);    
 }
 
 .rebaja{

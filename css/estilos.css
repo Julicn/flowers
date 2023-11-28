@@ -74,13 +74,13 @@ main .col div:hover {
   transform: scale(1.2);
 }
 main h3 {
-  color: rgb(223, 99, 42);
+  color: rgba(255, 241, 39, 0.836);
   text-align: center;
   padding-top: 35px;
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 25px;
-  background-color: rgba(255, 241, 39, 0.836);
+  background-color: rgb(223, 99, 42);
   animation-name: slidein;
   animation-duration: 10s;
   animation-timing-function: ease-out;
@@ -195,7 +195,7 @@ main h6 {
   font-size: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: grey;
+  background-color: rgb(187, 183, 183);
   transition: background-color, width 3s;
 }
 main h6:hover {
