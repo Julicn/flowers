@@ -37,7 +37,6 @@ header h1 {
   background-color: black;
   padding-top: 10px;
   padding-left: 35px;
-  padding-bottom: 15px;
   padding-bottom: 10px;
   animation-name: slidein;
   animation-duration: 10s;
@@ -184,7 +183,6 @@ main .sustentabilidad-3 img {
 }
 main .sustentabilidad-3 h4 {
   margin-left: 75px;
-  font-size: 35px;
 }
 main .sustentabilidad-3 p {
   margin-left: 75px;
@@ -192,7 +190,7 @@ main .sustentabilidad-3 p {
 main h6 {
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: rgb(187, 183, 183);
@@ -465,7 +463,7 @@ footer .flor {
   font-size: 22px;
   text-align: left;
   margin-inline-start: 15px;
-  padding-top: 75px;
+  padding-top: 85px;
 }
 footer .envio a {
   color: black;
@@ -482,230 +480,52 @@ footer .horario {
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 900px) {
-  .grid-galeria {
-    display: inline-block;
-    width: 100%;
-    grid-auto-rows: 450px;
-    gap: 35px;
+@media screen and (max-width: 990px) {
+  header h1 {
+    font-size: 11px;
   }
-  .grid-galeria div img {
-    width: 80%;
-    height: 80%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    padding-top: 55px;
-    justify-content: center;
+  header h2 {
+    font-size: 45px;
   }
-  .grid-galeria div h2 {
-    position: absolute;
-    padding-bottom: 25px;
+  .nav-item {
+    font-size: 25px;
   }
-  .grid-galeria2 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 350px;
-    gap: 35px;
-    transition: 1s;
-  }
-  .grid-galeria2 div:hover {
-    transform: scale(1.2);
-  }
-  .grid-galeria2 div img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
+  main h3 {
+    padding-top: 15px;
+    font-size: 30px;
+    padding-bottom: 15px;
   }
   .grid-galeria2 div p {
-    text-align: center;
+    font-size: 15px;
   }
-  h3 {
-    color: rgb(223, 99, 42);
-    text-align: center;
-    padding-top: 45px;
-    font-size: 35px;
-    padding-bottom: 25px;
-  }
-  .sustentabilidad {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    padding-top: 55px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 35px;
-  }
-  .text h4 {
+  main .text h4 {
     margin-right: 25px;
     font-size: 25px;
   }
-  .text .text p {
+  main .text p {
     margin-right: 35px;
-    font-size: 15px;
+    font-size: 13px;
   }
-  .sustento {
+  main .sustentabilidad-2 {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  main .sus3 {
     width: 457px;
     height: 486px;
   }
-  .sustentabilidad-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 35px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 35px;
+  main .sus5 {
+    width: 457px;
+    height: 486px;
   }
-  .sus3 {
-    width: 357px;
-    height: 386px;
-  }
-  .sus5 {
-    width: 357px;
-    height: 386px;
-  }
-  .sustentabilidad-3 {
-    display: inline-block;
-  }
-  .sustentabilidad-3 img {
-    width: 357px;
-    height: 386px;
-  }
-  .sustentabilidad-3 h4 {
-    font-size: 25px;
-    text-align: left;
-    padding-top: 15px;
-  }
-  .sustentabilidad-3 p {
-    font-size: 15px;
-    text-align: left;
-  }
-  .text-2 h4 {
-    text-align: left;
-  }
-  .horario {
-    padding-top: 15px;
-  }
-  h5 {
-    text-align: center;
-    color: gray;
+  main h6 {
     font-size: 30px;
+    padding-top: 15px;
     padding-bottom: 15px;
   }
-}
-@media screen and (max-width: 600px) {
-  .grid-galeria {
-    display: inline-block;
-    width: 100%;
-    grid-auto-rows: 450px;
-    gap: 35px;
-  }
-  .grid-galeria div img {
-    width: 80%;
-    height: 80%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    padding-top: 55px;
-    justify-content: center;
-  }
-  .grid-galeria div h2 {
-    position: absolute;
-    padding-bottom: 25px;
-  }
-  .grid-galeria2 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 350px;
-    gap: 35px;
-    transition: 1s;
-  }
-  .grid-galeria2 div:hover {
-    transform: scale(1.2);
-  }
-  .grid-galeria2 div img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
-    justify-content: center;
-  }
-  .grid-galeria2 div p {
-    text-align: center;
-  }
-  h3 {
-    color: rgb(223, 99, 42);
-    text-align: center;
-    padding-top: 45px;
-    font-size: 30px;
-    padding-bottom: 25px;
-  }
-  .sustentabilidad {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    padding-top: 55px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 35px;
-  }
-  .text h4 {
-    margin-right: 25px;
+  main .rebaja p {
     font-size: 25px;
-  }
-  .text .text p {
-    margin-right: 35px;
-    font-size: 15px;
-  }
-  .sustento {
-    width: 357px;
-    height: 386px;
-  }
-  .sustentabilidad-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 35px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 35px;
-  }
-  .sus3 {
-    width: 257px;
-    height: 286px;
-  }
-  .sus5 {
-    width: 257px;
-    height: 286px;
-  }
-  .sustentabilidad-3 {
-    display: inline-block;
-  }
-  .sustentabilidad-3 img {
-    width: 257px;
-    height: 286px;
-  }
-  .sustentabilidad-3 h4 {
-    font-size: 25px;
-    text-align: left;
-    padding-top: 15px;
-  }
-  .sustentabilidad-3 p {
-    font-size: 15px;
-    text-align: left;
-  }
-  .text-2 h4 {
-    text-align: left;
-  }
-  .horario {
-    padding-top: 15px;
-  }
-  h5 {
-    text-align: center;
-    color: gray;
-    font-size: 25px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 10px;
   }
 }/*# sourceMappingURL=estilos.css.map */

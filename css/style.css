@@ -400,7 +400,7 @@ footer div ul{
     padding-left: 25px;    
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 
     .grid-galeria{
         display: inline-block;
