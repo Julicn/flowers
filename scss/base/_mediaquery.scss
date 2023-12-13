@@ -101,7 +101,7 @@
     main .grid-galeria2{
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 350px;
         gap: 35px;
     } 
@@ -129,6 +129,11 @@
         margin-right: 10px; 
         font-size: 9px;      
     }
+
+    main .sustento{
+        width: 457px;
+        height: 486px;
+    }
     
     main .sustentabilidad-2 {
         padding-left: 35px;
@@ -152,8 +157,8 @@
         padding-bottom: 35px;
 
         img{
-            width: 557px;
-            height: 586px;
+            width: 457px;
+            height: 486px;
             padding-bottom: 35px;
         }
 
@@ -190,6 +195,142 @@
     
     footer .horario{ 
         font-size: 9px; 
+    }
+
+}
+
+@media screen and (max-width: 468px) {
+
+
+    header h1 {
+        font-size: 6px;
+    }
+      
+    header h2 {
+        font-size: 25px;
+    }
+
+    .nav-item{
+        font-size: 25px;
+        width: 300px;
+    }
+
+    main div.card{
+        font-size: 25px;
+        width: 300px;
+        padding: 25px;
+        justify-content: center;
+    }
+
+    main div.col{
+        font-size: 25px;
+        width: 300px;
+        padding: 25px;
+    }
+
+    main h3{
+        padding-top: 15px;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    main .grid-galeria2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 150px;
+        gap: 15px;
+    } 
+    
+    main .grid-galeria2 div img{
+        object-fit: contain;
+        padding-top: 15px;
+    }
+    
+    main .grid-galeria2 div p{
+        text-align: center;
+        font-size: 8px;
+    }
+    
+    main .grid-galeria2 div{
+        padding-bottom: 75px;
+    }
+    
+    main .text h4{
+        margin-right: 25px;
+        font-size: 15px;        
+    }
+    
+    main .text p{
+        margin-right: 10px; 
+        font-size: 5px;      
+    }
+
+    main .sustento{
+        width: 257px;
+        height: 286px;
+    }
+    
+    main .sustentabilidad-2 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    
+    main .sus3 {
+        width: 257px;
+        height: 286px;
+    }
+    main .sus5 {
+        width: 257px;
+        height: 286px;
+    }
+
+    main .sustentabilidad-3{
+        @include flex(flex, center, center);
+        padding-top: 35px;
+        padding-left: 45px;
+        padding-right: 25px;
+        padding-bottom: 35px;
+
+        img{
+            width: 357px;
+            height: 386px;
+            padding-bottom: 35px;
+        }
+
+        h4{
+            margin-left: 35px;
+        }
+
+        p{
+            margin-left: 35px;
+        }
+    }
+          
+    main h6{
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    
+    }
+
+    main .rebaja p{
+        font-size: 25px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        
+    }
+
+    footer .flor{
+        font-size: 15px;        
+    }
+
+    footer .envio a{
+        font-size: 9px;
+    }
+    
+    footer .horario{ 
+        font-size: 6px; 
     }
 
 }
